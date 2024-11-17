@@ -1,0 +1,35 @@
+I want to start my development for below module with help of sow document i have provided and file structure in below. 
+Give me step wise path for this.
+
+
+Authentication Module: 
+
+Login via AD: 
+
+Flow: User credentials sent to backend → Authentication Service validates with AD using OAuth2 → Generates JWT token. 
+
+For AD – BCCL LDAP will be used on successful login the token will be generated. Time Stamp to expiry this token will be needed 
+
+Security Protocols: OAuth2, JWT tokens for subsequent API calls. 
+
+File structure :                                                                                                                    ├── AuthenticationService/ 
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   ├── com.example.authentication/
+│   │   │   │   │   ├── controller/
+│   │   │   │   │   │   └── AuthController.java      # Handles login and JWT generation
+│   │   │   │   │   ├── service/
+│   │   │   │   │   │   └── AuthService.java         # LDAP validation, JWT logic
+│   │   │   │   │   ├── config/
+│   │   │   │   │   │   └── SecurityConfig.java      # OAuth2 and JWT configuration
+│   │   │   │   │   ├── model/
+│   │   │   │   │   │   └── User.java                # User entity
+│   │   │   │   │   ├── dto/
+│   │   │   │   │   │   └── LoginRequest.java        # DTO for login payload
+│   │   │   │   └── resources/
+│   │   │   │       ├── application.properties       # Service configurations
+│   │   ├── test/                                    # Unit and integration tests
+│   ├── build.gradle                                 # Gradle build configuration
+│   └── Dockerfile                                   # Dockerfile for containerizing the service
+│             

@@ -1,0 +1,94 @@
+Below is my project file directory architecture for this project.
+
+Timescape-NU
+├── Docs                                      # Project Documentation
+├── Images                                    # Image Assets
+├── TimeScape-NU-Backend                      # Backend Code (Microservices)
+│   ├── authentication-service                # Microservice for authentication
+│   │   ├── src
+│   │   │   ├── main
+│   │   │   │   ├── java/com/timescape/auth
+│   │   │   │   │   ├── config                # Security, AD, OAuth Configurations
+│   │   │   │   │   ├── controller            # Authentication API Endpoints
+│   │   │   │   │   ├── service               # Authentication Service Layer
+│   │   │   │   │   └── util                  # Utility classes
+│   │   │   │   └── resources
+│   │   │   │       ├── application.yml       # Configuration file
+│   │   │   │       └── log4j2.xml            # Logging Config
+│   │   └── build.gradle
+│   │
+│   ├── home-service                          # Microservice for Home Page
+│   │   ├── src
+│   │   │   ├── main
+│   │   │   │   ├── java/com/timescape/home
+│   │   │   │   │   ├── config                # Configurations (e.g., Redis, Caching)
+│   │   │   │   │   ├── controller            # API Endpoints for Home Page
+│   │   │   │   │   ├── model                 # Data Models (Job Posting, Alerts, Notices)
+│   │   │   │   │   ├── service               # Service Layer
+│   │   │   │   │   └── repository            # MongoDB Repository
+│   │   │   │   └── resources
+│   │   │   │       ├── application.yml
+│   │   │   │       └── log4j2.xml
+│   │   └── build.gradle
+│   │
+│   ├── dashboard-service                     # Microservice for Dashboard Page
+│   │   ├── src
+│   │   │   ├── main
+│   │   │   │   ├── java/com/timescape/dashboard
+│   │   │   │   │   ├── config                # Configurations (e.g., Resilience4j)
+│   │   │   │   │   ├── controller            # API Endpoints for Dashboard
+│   │   │   │   │   ├── model                 # Data Models (Reimbursements, Payslips, Approvals)
+│   │   │   │   │   ├── service               # Service Layer
+│   │   │   │   │   └── repository            # MongoDB Repository
+│   │   │   │   └── resources
+│   │   │   │       ├── application.yml
+│   │   │   │       └── log4j2.xml
+│   │   └── build.gradle
+│   │
+│   ├── notification-service                  # Microservice for Notifications
+│   │   ├── src
+│   │   │   ├── main
+│   │   │   │   ├── java/com/timescape/notification
+│   │   │   │   │   ├── controller            # API Endpoints for Notifications
+│   │   │   │   │   ├── service               # Service Layer
+│   │   │   │   └── resources
+│   │   │   └── test                          # Unit and Integration Tests
+│   │   └── build.gradle
+│   │
+│   └── build.gradle                          # Parent Gradle Configuration
+│
+└── TimeScape-NU-Frontend                     # Frontend Code (Angular)
+    ├── src
+    │   ├── app
+    │   │   ├── core                          # Core Angular services, guards
+    │   │   ├── shared                        # Shared components, pipes, and utilities
+    │   │   ├── home                          # Home Page Module
+    │   │   │   ├── components
+    │   │   │   │   ├── header                # Header Component (Time, Logo, User Profile)
+    │   │   │   │   ├── navbar                # Navigation Bar (Punch Online, Corporate)
+    │   │   │   │   ├── job-posting           # Internal Job Posting Component
+    │   │   │   │   ├── alerts                # Alerts Component (Notices, My Alerts)
+    │   │   │   │   └── footer                # Footer Component (Quick Links, Games)
+    │   │   │   └── services                  # API Service Calls for Home
+    │   │   ├── dashboard                     # Dashboard Module
+    │   │   │   ├── components
+    │   │   │   │   ├── leave-exceptions      # Leave Exception Progress Bars
+    │   │   │   │   ├── reimbursements        # Reimbursements Section
+    │   │   │   │   ├── payslip               # Payslip Component
+    │   │   │   │   ├── approvals             # Approvals Component (Leave, Invoice, PAR)
+    │   │   │   └── services                  # API Service Calls for Dashboard
+    │   │   ├── auth                          # Authentication Module (Login, AD integration)
+    │   │   ├── services                      # Global Services (e.g., Auth, API Interceptor)
+    │   │   ├── store                         # State Management (NgRx Store)
+    │   │   └── assets                        # Static Assets (Images, Fonts)
+    │   └── environments
+    │       ├── environment.ts                # Development Environment
+    │       └── environment.prod.ts           # Production Environment
+    ├── angular.json                          # Angular CLI Configuration
+    ├── tsconfig.json                         # TypeScript Configuration
+    └── package.json                          # Dependencies
+
+=====================================================================================================
+=====================================================================================================
+
+I will provide More information about project in below pronpts. Once I said then start to generate detailed information along with code.

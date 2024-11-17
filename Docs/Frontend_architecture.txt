@@ -1,0 +1,149 @@
+We had two web pages in same project. Home page and dashboard page.
+We are using Angular 18 for frontend.
+
+=====================================================================================================
+=====================================================================================================
+
+Home page content:
+
+Content Breakdown Based on the Timescape UI Image
+Main Sections
+ * Header
+   * Time
+   * Timescape Logo
+   * User Profile Icon
+ * Navigation Bar
+   * Punch Online
+   * Corporate
+   * Employee Engage
+ * Main Content
+   * Internal Job Posting
+     * Title
+     * Description
+     * Posted By
+     * Date
+     * Likes
+   * My Alerts
+     * Notice Board
+ * Footer
+   * Quicklinks
+   * Games
+   * Leader Connect
+   * Humour
+Detailed Content Breakdown :
+Header
+ * Timescape Logo: Timescape branding
+ * User Profile Icon: User's profile picture and name(
+Navigation Bar
+ * Punch Online: Link to time and attendance tracking system
+ * Corporate: Link to corporate news, policies, and information
+ * Employee Engage: Link to employee engagement activities, forums, and resources
+Main Content
+ * Internal Job Posting
+   * Title: UNLOCK YOUR POTENTIAL. EXPLORE YOUR NEXT CAREER MOVE!
+   * Description: Brief description of the job posting
+   * Posted By: HR Connect
+   * Date: 12-04-2024 | 05:00 PM
+   * Likes: 502
+ * My Alerts
+   * List of pending approvals and notifications
+     * Example: 2 leaves for approval
+     * Example: Approve Invoice
+ * Notice Board
+   * List of recent notices and announcements
+     * Example: Notice about a company event
+     * Example: Important policy update
+
+ * VCO Inspiration
+   * Motivational quote from the VCO
+ * Quick Links
+   * Punch Online
+   * Collaborate
+   * MY-HR
+   * OCA
+   * My Learning
+   * HR Policies
+   * PF Account
+   * Reimbursements
+   * Quest to Travel
+   * Wall of Fame
+   * Hospitalization
+   * Capex Approval
+   * PAR Approval
+   * Video Channel
+ * Leader Connect
+   * Leader Messages (e.g., #WhatMakesUsOne)
+   * Polls and Surveys
+   * Humour
+ * Other Sections (based on context)
+   * My Alerts
+   * Notice Board
+   * Quicklinks
+   * Games
+Detailed Content Breakdown
+VCO Inspiration
+ * Motivational quote from the VCO
+ * Possibly an image or graphic related to the quote
+Quick Links
+ * Punch Online: Time and attendance tracking system
+ * Collaborate: Collaboration tool or platform
+ * MY-HR: HR portal for employee information, policies, and benefits
+ * OCA: Online certification administration system
+ * My Learning: Employee learning management system
+ * HR Policies: Repository of company policies and procedures
+ * PF Account: Information about Provident Fund accounts and related processes
+ * Reimbursements: Reimbursement request and tracking system
+ * Quest to Travel: Travel request or approval system
+ * Wall of Fame: Showcase of employee achievements and recognition
+ * Hospitalization: Health insurance and medical benefits information
+ * Capex Approval: Capital expenditure approval process
+ * PAR Approval: Performance appraisal review process
+ * Video Channel: Video library for company announcements, training videos, etc.
+Leader Connect
+ * Leader Messages: Messages from company leaders
+ * Polls and Surveys: Polls to gather employee feedback
+ * Humour: Light-hearted content or jokes
+Other Sections
+ * My Alerts: Personal notifications and alerts for the user
+ * Notice Board: General announcements and notices for all employees
+ * Quicklinks: Quick access to frequently used links
+ * Games: Interactive games or quizzes
+
+=====================================================================================================
+=====================================================================================================
+
+Dashboard page content:
+
+ * Exception: A section likely related to leave exceptions or special leave requests. It shows a progress bar with different leave types and their respective utilization.
+   * Optional: 1/2 used
+   * Casual: 5/7 used
+   * Sick: 8/12 used
+   * Privilege: 4/70 used
+ * Reimbursements:
+   * Conveyance:
+     * Approved amount: 25000
+     * Balance: 75000
+   * Communication:
+     * Approved amount: 5000
+     * Balance: 95000
+     * Status: Not Filed
+ * Pay Slip:
+   * Month: May
+   * Download icon: Indicates the ability to download the pay slip
+ * LTA: No Action Required
+ * OCA: Compliant
+ * Approval:
+   * Leave approvals: 5 pending
+   * Invoice approvals: 3 pending
+   * PAR approvals: 1 pending
+Bottom Navigation:
+ * Quicklinks
+ * Games
+ * Leader Connect
+ * Humour
+Overall, this dashboard provides a quick overview of the user's leave balance, reimbursement status, pending approvals, and other relevant information. It's likely designed to be a one-stop shop for employees to manage their HR-related tasks and stay informed about their work status.
+
+=====================================================================================================
+=====================================================================================================
+
+I will provide More information about project in below pronpts. Once I said then start to generate detailed information along with code.
